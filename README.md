@@ -11,12 +11,12 @@ Core Independent Peripherals (CIPs) is a category of peripherals available on ma
 - [AN2451 - Getting Started with Core Independent Peripherals on AVR® Microcontrollers](https://www.microchip.com/DS00002451)
 - [ATtiny817 Xplained Pro User Guide](https://www.microchip.com/DS50002684)
 - [ATtiny817 Data Sheet](https://www.microchip.com/DS40001901)
-- [Device Page](https://www.microchip.com/wwwproducts/en/ATtiny817)
+- [ATtiny817 Device Page](https://www.microchip.com/wwwproducts/en/ATtiny817)
 
 ## Software Used
 
-- [MPLAB® X IDE](http://www.microchip.com/mplab/mplab-x-ide) v5.30 or later
-- [MPLAB® XC8](http://www.microchip.com/mplab/compilers) 2.10 or a later
+- [MPLAB® X IDE](http://www.microchip.com/mplab/mplab-x-ide) v5.40 or later
+- [MPLAB® XC8](http://www.microchip.com/mplab/compilers) 2.20 or a later
 
 ## Hardware Used
 
@@ -34,7 +34,7 @@ Core Independent Peripherals (CIPs) is a category of peripherals available on ma
 
 3. Using the signal from a mechanical button directly into an application without any form of filtering will in many cases lead to unpredictable behavior, since the signal often transitions several times between high and low each time the button is pushed or released. This is often referred to as bounce. If an application is required to act once each time a mechanical button is pressed, some form of filtering needs to be implemented either in hardware or software, also referred to as debouncing.
 
-<br/>*The project is already configured for you, but the next steps will explain what has been implemented in order for the system to work. For a complete description follow the document  [AN2451 - Getting Started with Core Independent Peripherals on AVR® Microcontrollers](https://www.microchip.com/DS00002451)*
+<br/>*The project is already configured for you, but the next steps will explain what has been implemented in order for the system to work. For a complete description follow the document  [AN2451 - Getting Started with Core Independent Peripherals on AVR® Microcontrollers](https://www.microchip.com/DS00002451).*
 
 4. Event System (EVSYS) Setup: <br/>The application example uses the Event System to route the signals to and from the CCL for maximum flexibility. The button signal and a suitable clock signal must be routed to the event inputs of a LUT, while the output from this LUT must be routed to the ADC event input.<br/> The event output from the Periodic Interrupt Timer (PIT) unit in the Real-Time Counter (RTC) is suitable as a clock signal. If the RTC clock is set to 32 kHz, a good starting point would be to select the PIT output event corresponding to dividing the RTC clock by 1024 as the source for one event channel. The input event selected as IN[2] for the LUT may then be configured to be a user of this channel.
 <br/>The I/O pin connected to the button may be configured as the event generator for a second event channel. The remaining available LUT input event may then be configured as a user of this channel. The I/O pin may also be configured as an input with its associated pull-up resistor enabled if there is no external pull-up resistor connected.
