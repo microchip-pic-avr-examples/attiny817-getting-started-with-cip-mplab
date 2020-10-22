@@ -3,7 +3,7 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.mplab.project.attiny817-getting-started-with-cip-mplab",
+        "name": "com.microchip.mcu8.mplabx.project.attiny817-getting-started-with-cip-mplab",
         "version": "1.0.0",
         "displayName": "Getting Started with Core Independent Peripherals on AVR® Microcontrollers",
         "projectName": "attiny817-getting-started-with-cip-mplab",
@@ -62,8 +62,6 @@
             "ADC"
         ],
         "keywords": [
-            "",
-            ""
         ],
         "additionalData": {
             "longDescription": {
