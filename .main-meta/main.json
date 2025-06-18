@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.attiny817-getting-started-with-cip-mplab",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "displayName": "Getting Started with Core Independent Peripherals on AVR® Microcontrollers",
         "projectName": "attiny817-getting-started-with-cip-mplab",
         "shortDescription": "This repository will have a look at CIPs and provide an example on how to combine CCL, Event System, RTC and ADC to filter the signal from a button and initiate an ADC conversion core independently.",
