@@ -10,17 +10,17 @@
         "shortDescription": "This repository will have a look at CIPs and provide an example on how to combine CCL, Event System, RTC and ADC to filter the signal from a button and initiate an ADC conversion core independently.",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": ">=5.40.0"
+            "semverRange": ">=6.25.0"
         },
         "compiler": [
             {
                 "name": "XC8",
-                "semverRange": "^2.29.0"
+                "semverRange": "^3.00.0"
             }
         ],
         "dfp": {
             "name": "ATtiny_DFP",
-            "semverRange": "^2.2.89"
+            "semverRange": "^3.3.272"
         },
         "configurator": {
             "name": "START",
