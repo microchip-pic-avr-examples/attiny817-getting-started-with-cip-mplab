@@ -14,9 +14,9 @@ Core Independent Peripherals (CIPs) is a category of peripherals available on ma
 
 ## Software Used
 
-- [MPLAB® X IDE](http://www.microchip.com/mplab/mplab-x-ide) v5.40 or later
-- [ATtiny DFP](http://packs.download.atmel.com/) 2.2.89 or later
-- [MPLAB® XC8](http://www.microchip.com/mplab/compilers) 2.20 or a later
+- [MPLAB® X IDE](http://www.microchip.com/mplab/mplab-x-ide) v6.25 or later
+- [ATtiny DFP](http://packs.download.atmel.com/) 3.3.272 or later
+- [MPLAB® XC8](http://www.microchip.com/mplab/compilers) 3.00 or later
 - [AVR/GNU C Compiler](https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers) 5.4.0 or later
 
 ## Hardware Used
